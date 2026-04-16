@@ -1,3 +1,0 @@
-- Se a variavel for mutavel, como no exemplo do saldo de ContaBancaria.java, PRECISA DO SET, se nao apenas o construtor basta.
-
-- Encapsulamento que o professor pede: fazer as variaveis private.
