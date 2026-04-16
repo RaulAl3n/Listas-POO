@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ContaBancaria conta1 = new ContaBancaria(12345, "Maria", 1000.00f);
+        ContaBancaria conta1 = new ContaBancaria();
 
         System.out.println("Deseja criar uma conta bancária? (s/n): ");
         String resposta = scanner.nextLine();
 
-        if(resposta == "s" || resposta == "S") {
+        if(resposta.equalsIgnoreCase("s"))  {
             System.out.print("Digite o número da conta: ");
             int numeroConta = scanner.nextInt();
             scanner.nextLine();
@@ -20,16 +20,18 @@ public class Main {
             System.out.print("Digite o saldo inicial: ");
             float saldo = scanner.nextFloat();
 
-            ContaBancaria novaConta = new ContaBancaria(numeroConta, titular, saldo);
+            conta1.setNumeroConta(numeroConta);
+            conta1.setTitular(titular);
+            conta1.setSaldo(saldo);
             System.out.println("\nConta criada com sucesso!");
-            novaConta.consultarSaldo();
+            conta1.consultarSaldo();
         } else {
             System.out.println("Operação cancelada.");
         }
 
         System.out.println("\nDeseja realizar um depósito? (s/n): ");
         resposta = scanner.nextLine();
-        if(resposta == "s" || resposta == "S") {
+        if(resposta.equalsIgnoreCase("s")) {
             System.out.print("Digite o valor do depósito: ");
             float valorDeposito = scanner.nextFloat();
             conta1.depositar(valorDeposito);

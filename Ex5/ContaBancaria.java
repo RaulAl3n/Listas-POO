@@ -5,12 +5,6 @@ public class ContaBancaria {
     public String titular;
     public float saldo;
 
-    public ContaBancaria(int numeroConta, String titular, float saldo) {
-        this.numeroConta = numeroConta;
-        this.titular = titular;
-        this.saldo = saldo;
-    }
-
     public int getNumeroConta() {
         return numeroConta;
     }
