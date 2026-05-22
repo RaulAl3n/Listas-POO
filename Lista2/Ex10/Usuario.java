@@ -3,7 +3,7 @@ package Ex10;
 public class Usuario{
     private String login;
     private String email;
-    private Perfil perfil;
+    Perfil perfil;
 
     public Usuario(String login, String email, Perfil perfil){
         this.login = login;
@@ -24,6 +24,7 @@ public class Usuario{
     public void exibirInformacoes(){
         System.out.println("Login: " + login);
         System.out.println("Email: " + email);
-        System.out.println("Perfil: " + perfil);
+
+        perfil.exibirInformacoes();
     }
 }
