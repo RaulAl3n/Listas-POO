@@ -1,0 +1,5 @@
+O código mudou na declaracao do arrayList e no uso da função pronta add.
+
+Ficou mais fácil de escrever, já que é mais rápido escrever com add.
+
+Deixou de ser necessário controlar o índice manualmente.

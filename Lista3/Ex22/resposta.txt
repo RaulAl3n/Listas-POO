@@ -1,0 +1,7 @@
+Array: devemos usar array quando lidamos com um número definido de dados.
+    Vantagens: acesso mais rápido dos dados, menor consumo de memória e estrutura mais simples e eficiente.
+    Desvantagens: imutabilidade e mais trabalhoso para inserir/remover elementos.
+
+ArrayList: devemos usar quando nao sabemos exatamente quantos dados serão armazenados.
+    Vantagens: mais flexibilidade e métodos prontos.
+    Desvantagens: mais lento que array para acesso, pode consumir mais memória e inserções/remoções no meio podem ser lentas.

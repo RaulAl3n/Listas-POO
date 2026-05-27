@@ -1,0 +1,11 @@
+a) Herança é a relação de classe pai e classe filha, na qual a filha herda os atributos e os metodos da classe pai.
+
+b) A diferença é que a subclasse herda os atributos da classe base e o contrário não acontece.
+
+c) Um array é um tipo de lista de tamanho fixo que armazena outros tipos de dados;
+
+d) Um array é um tipo de lista de tamanho variável que armazena outros tipos de dados;
+
+e) É a capacidade de armazenar dados co mespaços limitados e a outra com ilimitados.
+
+f) Pois essas são subclasses, então se o ArrayList for da classe pai, ela pode armazenar as filhas.
